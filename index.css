@@ -1,0 +1,516 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.quote{
+    
+   
+height:80vh;
+width: 100%;
+    background-image:url("./image-2.jpg");
+    overflow: hidden;
+background: #000000;  /* fallback colour. Make sure this is just one solid colour. */
+background: -webkit-linear-gradient(rgba(22, 22, 24, 0.9), rgba(39, 35, 36, 0.9)), url("./image-2.jpg");
+position: relative;
+background-size:cover;
+
+
+}
+.logo{
+  position: absolute;
+  top: 35%;  
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.logo img{
+    width: 70px;
+}
+.headline{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    bottom: 8rem;
+    text-transform:uppercase;
+    text-align: center;
+    font-family:'teko';
+
+}
+.div{
+    background-color: #dae4ee;
+    
+
+
+}
+.flex-wrap{
+  
+   font-family: teko;
+   padding-left: 2rem;
+
+
+}
+.btn-1{
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+    justify-content: space-evenly;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   font-family:  'Rubik', sans-serif;
+ 
+}
+.info>p{
+   padding-top: 4.5rem;
+   padding-right: 3rem;
+}
+.content{
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+.content,.info{
+    padding-top: 1.5rem;
+    font-size: 1em;
+    line-height: 1.5rem;
+    font-family:  'Rubik', sans-serif;
+}
+.btn-1:hover{
+background-color: rgb(247, 139, 100);
+}
+.btn-1:active{
+    background-color: yellow;
+}
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.png img{
+height: 12rem;
+width: 12rem;
+border-radius: 50%;
+background-size: contain;
+}
+.flex{
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    font-size: 0.5rem;
+   
+}
+.tick{
+   
+}
+.tick_content{
+    display: flex;
+    font-family:  'Rubik', sans-serif;
+   
+}
+.png-img{
+  
+}
+.left{
+    border: 2px solid black;
+    margin-bottom: 4rem;
+    display: flex   ;
+}
+.name{
+    border: 2px solid red;
+}
+.logos{
+    display: flex;
+    
+    margin-top: 3rem;
+  
+}
+.facebook:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.instagram:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.twitter:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.pinterest:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.explore{
+ color: whitesmoke;
+}
+.list{
+    color: whitesmoke;
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    font-family: 'Oswald';
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.list>ul{
+    list-style: none;
+}
+.address{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding-top: 2rem;
+}
+.location-png img{
+    width: 30px;
+   
+}
+.location-info{
+    font-size: 1rem;
+    padding-left: 1rem;
+    font-family: 'Oswald';
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.telephone{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+.number{
+    color: whitesmoke;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Oswald';
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.number:hover{
+    text-decoration: underline solid  orangered;
+    color: orangered;
+}
+.phone-logo{
+    width: 30px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+.Email-png img{
+    width: 30px;
+}
+.email-info{
+  color: whitesmoke;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Oswald';
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.email-info:hover{
+    color: orangered;
+    text-decoration: underline orangered solid;
+
+}
+.newsletter>h2{
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+}
+.letterbox{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.letterbox img{
+    align-items: center;
+  
+    width: 40px;
+    
+}
+.letterbox>input{
+    height: 2rem;
+    width: 13rem;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+.letterbox>input:focus{
+    outline: none;
+}
+.contactUs{
+    padding-top: 1.5rem;
+
+   
+}
+.contactUs>button{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    background-color: #e85d04;
+    font-family: 'Oswald';
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+@media  screen and (max-width:480px)
+{
+    .logo img{
+        margin-top: 4rem;
+    }
+.headline{
+    font-size: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer{
+   
+}
+.parent1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img-png img{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.section2{
+
+   margin-top: 3rem;
+  
+}
+.logos{
+    align-items: center;
+    justify-content: center;
+    
+}
+.telephone{
+    align-items: center;
+   justify-content: center;
+}
+.section4{
+    padding-top: 2rem;
+}
+.letterbox{
+   margin-top: 1rem;
+ 
+}
+.contact h2{
+   
+    margin-top: 2rem;
+}
+.headline1{
+font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.flex-wrap{
+    display: flex;
+    margin-right: 1rem;
+    
+}
+.flex-wrap>.btn-1{
+    margin-left: 1rem;
+    
+font-size: 1.1rem;
+   
+    
+}
+.div{
+    flex-direction: column;
+   
+}
+.content{
+   =
+}
+.para
+{
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: justify;
+    
+}
+
+.info>p{
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: justify;
+    
+    margin: 0 2rem;
+   
+
+}
+.flex{
+    flex-direction: column;
+}
+.tick{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.tick-content{
+    font-size: 0.5rem;
+}
+.png img{
+    height: 15rem;
+width: 15rem;
+}
+
+}
+@media screen and (max-width:768px)
+{
+    .logo{
+        margin-top: -6rem;
+    
+       
+    }
+    .logo img{
+        width: 5rem;
+    }
+    .headline1>h1{
+       
+        margin-top: 1rem;
+       padding-left: 2rem;
+       font-size: 2.5rem;
+    }
+    .flex-wrap{
+       
+        padding-left: 2rem;
+        
+    }
+    .btn-1{
+        font-size: 1.1rem;
+    }
+    .content>p{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        padding-left: 2rem;
+      
+    }
+    .section1{
+       
+        justify-content: center;
+        align-items: center;
+        margin: auto; 
+         
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;    
+    }
+    .img-png{
+        align-items: center;
+        justify-content: center;
+    }
+    .div{
+        flex-direction: column;
+    }
+    .info p{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        padding-left: 2rem;
+    }
+    .flex{
+        align-items: center;
+       
+       padding-left: 2rem;
+    }
+    .tick{
+        font-size: 1.4rem;
+    }
+    .parent1{
+        flex-direction: column;
+        align-items: center;
+    }
+	.footer-content{
+            font-size: 1.4rem;
+    }
+    .logos{
+       
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .section2{
+        
+        margin-top: 3rem;
+    }
+    .explore{
+        font-size: 1.3rem;
+        text-align: center;
+        
+    }
+    .list ul{
+        line-height: 2.4rem;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .section3{
+        
+    }
+    .contact h2{
+        text-align: center;
+        font-size:2rem;
+        margin-top: 2rem;
+    }
+    .address{
+
+    }
+    .location-png img{ 
+        width: 50px;
+    }
+    .location-info{
+        font-size: 1.2rem;
+    }
+    .phone-logo img{
+        width: 50px;
+    }
+    .number{
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+    .Email-png img{
+width: 50px;
+    }
+    .email-info{
+        font-size: 1.2rem;
+    }
+    .newsletter{
+        font-size: 1.4rem;
+      
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .letterbox{
+    margin-top: 1.5rem;
+        
+    }
+    .facebook{
+        margin: auto;
+    }
+    .twitter{
+        margin: auto;
+    }
+    .pinterest{
+        margin: auto;
+    }
+    .instagram{
+        margin: auto;
+    }
+}
