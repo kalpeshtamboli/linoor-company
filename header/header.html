@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Header Linoor
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Teko:wght@300&display=swap');
+      
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.bars{
+    width: auto;
+    height: auto;
+}
+
+.chk_bar{
+    display: none;
+}
+
+.bars{
+    display: none;
+
+}
+
+.fa-bars{
+    color: orange;
+    margin: 25px;
+    text-align: right;
+    
+    
+}
+
+
+
+.header_section{
+    width: 100%;
+    height: 100vh ;
+    background-image: url('./images/new\ bg1.jpg');
+    background-repeat: no-repeat;
+    /* background-position:top; */
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.linoor_logo{
+    width: 20%;
+    margin: 25px;
+    margin-left: 40px;
+    height: 40px;
+}
+
+.linoor_logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav_elements{
+    margin: 25px;
+    color: white;
+    text-align: center;
+}
+
+.nav_elements ul{
+    display: flex;
+    list-style-type:none;
+    
+}
+
+.nav_elements li{
+    margin: 15px;
+    text-decoration: none;
+}
+
+.nav_elements ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    cursor: pointer;
+}
+
+.call{
+    width: 13%;
+    height: auto;
+    color: white;
+    margin: 25px;
+    
+    text-align: center;
+}
+
+.sidebar{
+    display: none;
+    color: orange;
+    font-size: 20px;
+}
+
+.welcome_text{
+    margin-left: 15%;
+    margin-top: 12%;
+    color: white;
+    width: 50%;
+    height: auto;
+}
+
+.welcome_text h5{
+    font-size: 24px;
+}
+
+.welcome_text h1{
+    font-size: 90px;
+}
+
+.discover_btn button{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+}
+
+.discover_btn button:hover{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+
+}
+
+.social_media{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: orange;
+    transform: rotate(-90deg);
+}
+
+.social_media h4{
+    margin: 10px;
+}
+
+
+
+@media (max-device-width: 992px){
+    .navbar{
+        border:none;
+    }
+    .bars{
+    display: block;
+
+    }
+    .welcome_text{
+    margin-left: 15%;
+    margin-top: -1%;
+    }
+    .nav_elements{
+        display: none;
+    }
+    .call{
+        display: none;
+    }
+    .fa-bars{
+        text-align: right;
+        /* display: block; */
+    }
+    /* #chk_bar:checked ~ .sidebar{
+        display: block;
+    left: 0px;
+   } */
+   .sidebar{
+     position: fixed;
+     top: 0px;
+     left: -50%;
+     transition: left 0.3s ease-in-out;}
+
+}
+
+@media (max-device-width: 480px){
+    .welcome_text{
+    margin-left: 15%;
+    margin-top: -14%;
+    }
+}
+.date{
+    margin-left: 1%;
+    font-size: 10px;
+    margin-top: -30%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    writing-mode: vertical-rl;
+  }
+  .social{
+    margin-left: 1%;
+    font-size: 10px;
+    margin-top: 10%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    writing-mode: vertical-rl;
+  }
+  @media (max-device-width: 480px){
+    .date{
+      display: none;
+    }
+    .social{
+      display: none;
+    }
+  }
+  @media (max-device-width: 992px){
+    .date{
+      display: none;
+    }
+    .social{
+      display: none;
+    }
+  }
+.line-left{
+  margin-top: -45%;
+}
+.line-right{
+  margin-top: -17.60%;
+  margin-left: 58.49%;
+}
+@media (max-device-width: 480px){
+  .line-left{
+    display: none;
+  }
+  .line-right{
+    display: none;
+  }
+}
+@media (max-device-width: 992px){
+  .line-left{
+    display: none;
+  }
+  .line-right{
+    display: none;
+  }
+}
+    </style>
+    
+
+</head>
+
+<body>
+
+<section class="header_section">
+    <nav class="navbar">
+        <div class="linoor_logo">
+            <img src="images/nav-logo.png">
+        </div>
+        <div class="nav_elements">
+            <ul>
+                <li><a>HOME</a></li>
+                <li><a>ABOUT US</a></li>
+                <li><a>SERVICES</a></li>
+                <li><a>PORTFOLIO</a></li>
+                <li><a>PAGES</a></li>
+                <li><a>SHOP</a></li>
+                <li><a>BLOG</a></li>
+                <li><a>CONTACT US</a></li>
+                <li><a><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a><i class="fas fa-search"></i></a></li>
+            </ul>
+        </div>
+        <div class="call">
+            <h3>CALL ANYTIME</h1>
+            <h4>+91 888 888 8888</h2>
+               
+        </div>
+        <div class="bars">
+           
+            <i class="fas fa-bars fa-2x"> <input type="checkbox" id="chk_bar"></i>
+        </div>
+       
+    </nav>
+    <div class="sidebar">
+        <ul>
+            <li><a>HOME</a></li>
+            <li><a>ABOUT US</a></li>
+            <li><a>SERVICES</a></li>
+            <li><a>PORTFOLIO</a></li>
+            <li><a>PAGES</a></li>
+            <li><a>SHOP</a></li>
+            <li><a>BLOG</a></li>
+            <li><a>CONTACT US</a></li>
+            <li><a><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a><i class="fas fa-search"></i></a></li>
+        </ul>
+
+    </div>
+    <div>
+        <div class="social_media">
+                <h4>FACEBOOK</h4>
+                <h4>TWITTER</h4>
+                <h4>YOUTUBE</h4>
+        </div>
+        <div class="date">
+            <h4>MON - FRI</h4> 
+            <h4>9AM - 7PM</h4>
+        </div>  
+    </div> 
+    <div class="welcome_text">
+        <h5>Welcome to Linoor Agency</h5>
+        <h1>SMART WEB DESIGN AGENCY</h1>
+
+        <div class="discover_btn">
+        <button>Discover More</button>
+        </div>
+    </div>
+    <div class="date">
+        <h1>MON - FRI </h1>
+        &emsp;&emsp;&emsp;&emsp;
+        <h1>9AM - 7PM</h1>
+    </div>
+    <div class="social">
+        <h1>Youtube</h1>
+        &emsp;&emsp;&emsp;&emsp;
+        <h1>Facebook</h1>
+        &emsp;&emsp;&emsp;&emsp;
+        <h1>Twitter</h1>
+    </div>
+    <div class="line-left">
+        <img src="Images/left-curve-line.png" alt="left-curved-line">
+    </div>
+    <div class="line-right">
+        <img src="Images/right-curved-bg.png" alt="right-curved-line">
+    </div>
+    
+</section>
+</body>
+
+</html>

@@ -72,12 +72,17 @@ width: 100%;
 .content{
     padding-left: 2rem;
     padding-right: 3rem;
+    padding-top: 1rem;
+
 }
-.content,.info{
+
+.content .info{
     padding-top: 1.5rem;
     font-size: 1em;
     line-height: 1.5rem;
-    font-family:  'Rubik', sans-serif;
+    font-family:  'oswald', sans-serif;
+    font-weight: 900;
+
 }
 .btn-1:hover{
 background-color: rgb(247, 139, 100);
@@ -103,20 +108,18 @@ background-size: contain;
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 4rem;
-    font-size: 0.5rem;
+    font-size:1rem;
+    font-family:oswald;
+    font-weight: 100;
    
 }
-.tick{
-   
-}
+
 .tick_content{
     display: flex;
     font-family:  'Rubik', sans-serif;
    
 }
-.png-img{
-  
-}
+
 .left{
     border: 2px solid black;
     margin-bottom: 4rem;
@@ -397,6 +400,7 @@ width: 15rem;
     .btn-1{
         font-size: 1.1rem;
     }
+   
     .content>p{
         font-size: 1.4rem;
         line-height: 2rem;
@@ -460,17 +464,13 @@ width: 15rem;
         font-size: 1.4rem;
         text-align: center;
     }
-    .section3{
-        
-    }
+   
     .contact h2{
         text-align: center;
         font-size:2rem;
         margin-top: 2rem;
     }
-    .address{
-
-    }
+   
     .location-png img{ 
         width: 50px;
     }
